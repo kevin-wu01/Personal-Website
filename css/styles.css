@@ -1,0 +1,243 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    /* background-color: #ea2c62; */
+    /* background-color: #d54062; */
+    color: #fff;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.title-div {
+    padding: 7rem 0 0;
+}
+
+.title-text {
+    height: 150px;
+}
+
+.title-description {
+    color: #d3d3d3; 
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 50px;
+}
+
+.title-constant {
+    /* height: 100px; */
+}
+
+.title-darker {
+    color: #939393;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 50px;
+}
+
+h1 {
+    font-weight: 900; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+h2 {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: #555555;
+}
+
+.main-title {
+    color: white;
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 50px;
+}
+
+.button-div {
+    padding-top: 2rem;
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.button-row {
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.button-row:hover {
+    color: #d3d3d3;
+}
+
+.kevin-img {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.scroll-arrow {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: gray;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+.container-fluid {
+    padding: 3% 12% 5%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding : 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 300; 
+    font-size: 1.2rem;
+    font-family: "Montserrat"
+}
+
+.row {
+    position: relative;
+}
+
+/* banner */
+/* #banner {
+    height: 100px;
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.banner-div {
+    display: inline;
+    text-align: center;
+} */
+
+/* About */
+
+#about {
+}
+
+.about-div {
+    width: 100%; 
+    display: table;
+    background-color: #FF9A8C;
+    height: 500px;
+}
+
+.about-left {
+    width: 35%;
+    height: 100%;
+    display: table-cell;
+    background-color: #FF9A8C;
+}
+
+.about-right {
+    display: table-cell; 
+    background-color: white;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+.about-title {
+    font-weight: 900; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+}
+
+.about-text {
+    padding-top: 100px;
+}
+
+.divider {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-width: 0;
+    height: 5px;
+    background-color: #ff4c68;
+}
+
+/* Projects */
+#projects {
+    background-color: #FF9A8C;
+    padding-bottom: 30px;
+}
+
+.project-title {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.project-items {
+    width: 33.3%;
+    height: 100%;
+    display: table-cell;
+    background-color: #FF9A8C;
+    text-align: center;
+}
+
+.project-item {
+    height: 200px;
+}
+
+.project-box {
+    width: 75%;
+    height: 75%;
+    margin: 2.5% 12.5%;
+    background-color: #FFB0A6;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.project-img {
+    max-width: auto;
+    max-height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.helper {
+    display: inline-block;
+    height: 15%;
+    vertical-align: middle;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    padding: 30px 0 15px;
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+}
