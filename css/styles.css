@@ -85,6 +85,12 @@ h2 {
     bottom: 0;
 }
 
+@media (max-width: 650px) {
+    img#kimg {
+        display: none;
+    }
+}
+
 .scroll-arrow {
     position: absolute;
     left: 50%;
@@ -171,6 +177,7 @@ h2 {
     line-height: 1.5;
     text-align: center;
     color: white;
+    word-wrap: break-word;
 }
 
 .about-text {
@@ -188,14 +195,14 @@ h2 {
 /* Projects */
 #projects {
     background-color: #FF9A8C;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .project-title {
     text-align: center;
     color: white;
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 .project-items {
@@ -207,12 +214,13 @@ h2 {
 }
 
 .project-item {
-    height: 200px;
+    height: 220px;
+    padding-bottom: 30px;
 }
 
 .project-box {
-    width: 75%;
-    height: 75%;
+    width: 80%;
+    height: 90%;
     margin: 2.5% 12.5%;
     background-color: #FFB0A6;
     text-align: center;
@@ -222,7 +230,7 @@ h2 {
 
 .project-img {
     max-width: auto;
-    max-height: 100px;
+    max-height: 75px;
     margin: 0 auto;
     display: block;
 }

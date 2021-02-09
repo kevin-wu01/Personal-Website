@@ -31,7 +31,7 @@ $(window).on('scroll', function(){
         aboutTitle.css("transform", 'translateY(' + "340" + 'px)');
     }
 
-    console.log(normOffset);
+    // console.log(normOffset);
     // if(pos2.left > width) {
     //     title2.hide();
     // }
@@ -43,6 +43,8 @@ $(document).ready(function() {
     if(width < 950) {
         alert("This website hasn't been optimized for mobile yet! Some assets may appear out of place.");
         $("#title div.row h1:first").effect("blind");
+        // $(".about-left").html("<p class='about-title' style='transform: translateY(340px);'>A</p><p class='about-title' style='transform: translateY(340px);'>b</p><p class='about-title' style='transform: translateY(340px);'>o</p><p class='about-title' style='transform: translateY(340px);'>u</p><p class='about-title' style='transform: translateY(340px);'>t</p><p class='about-title' style='transform: translateY(340px);'>.</p>")
+        $(".about-left").html("<div class='about-title' style='line-height: 1.0;'><p>A</p><p>b</p><p>o</p><p>u</p><p>t</p><p>.</p></div>")
     }
 
     var $body = $(document);
@@ -54,6 +56,28 @@ $(document).ready(function() {
     });
 });
 
+$("#projects div.row div:nth-child(2) div.project-box").hover(function() {
+    $(this).css({"background-image": "url(./images/nwhecks.png)", "background-size": "contain", "background-size": "cover"});
+    // $(this).css('background-image', 'url(./images/nwhecks5.png)');
+
+    // $(this).animate({backgroundColor: '#33303B'}, 'slow');
+    $("#projects").animate({backgroundColor: '#33303B'}, 'fast');
+    $("#projects div.row div:nth-child(1) div.project-box").animate({backgroundColor: '#878198'}, 'fast');
+    $("#projects div.row div:nth-child(3) div.project-box").animate({backgroundColor: '#878198'}, 'fast');
+    $("#projects div.row div:nth-child(4) div.project-box").animate({backgroundColor: '#878198'}, 'fast');
+    $("#projects div.row div:nth-child(5) div.project-box").animate({backgroundColor: '#878198'}, 'fast');
+    $("#projects div.row div:nth-child(6) div.project-box").animate({backgroundColor: '#878198'}, 'fast');
+    $("#about div.about-div div.about-left").animate({backgroundColor: '#33303B'}, 'fast');
+}, function() {
+    $(this).css({"background-image": "none"});
+    $("#projects div.row div:nth-child(1) div.project-box").animate({backgroundColor: '#FFB0A6'}, 'fast');
+    $("#projects div.row div:nth-child(3) div.project-box").animate({backgroundColor: '#FFB0A6'}, 'fast');
+    $("#projects div.row div:nth-child(4) div.project-box").animate({backgroundColor: '#FFB0A6'}, 'fast');
+    $("#projects div.row div:nth-child(5) div.project-box").animate({backgroundColor: '#FFB0A6'}, 'fast');
+    $("#projects div.row div:nth-child(6) div.project-box").animate({backgroundColor: '#FFB0A6'}, 'fast');
+    $("#projects").animate({backgroundColor: '#FF9A8C'}, 'fast');
+    $("#about div.about-div div.about-left").animate({backgroundColor: '#FF9A8C'}, 'fast');
+})
 
 // function slide1() {
 //     const title1 = $("#title div.row div.title-text h1:nth-child(1)");
